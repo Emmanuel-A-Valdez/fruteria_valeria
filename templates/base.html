@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="icon" href="{% static 'img\icon.png' %}" type="image/png">
+    <title>Frutería Valeria | Calidad y Frescura</title>
+
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    {% include 'partials/_navbar.html' %}
+    <!-- Main -->
+    {% block content %}
+
+    {% endblock %}
+    <!-- Footer -->
+    {% include 'partials/_footer.html' %}
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- Local JS file -->
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <!-- Google Maps -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBapu67IgnrXWyk3i6gkQTYadtDDqkz_Ag&callback=initMap"
+        type="text/javascript"></script>
+</body>
+
+</html>

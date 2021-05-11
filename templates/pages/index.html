@@ -1,0 +1,181 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<!-- Header: Hero -->
+<header id="hero">
+    <div class="hero-content">
+        <h1 class="heading-large">Calidad y Frescura</h1>
+        <p class="lead">
+            Ven a conocer nuestro extenso surtido de frutas y verduras frescas.
+        </p>
+        <a href="#what" class="btn">Lee Mas</a>
+    </div>
+</header>
+
+<!-- Section: What We Do -->
+<section id="what" class="padding-medium">
+    <div class="container">
+        <h2 class="heading-small text-center"><span class="text-highlight">Nuestros</span> Servicios</h2>
+        <div class="items">
+            <div class="item">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="{% static 'img\vegetables.jpg' %}" alt="Fruta y verdura fresca">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-title">Frutas y Verduras</h2>
+                        <p class="card-text">
+                            Con la finalidad de ofrecer un mejor servicio a nuestros clientes, día a día nos llegan
+                            productos
+                            agrícolas de diversas partes del país.
+                        </p>
+                        <p class="card-text">
+                            Aunado a ello, también ofrecemos productos que regularmente no se manejan en otras
+                            fruterías, incluso
+                            nuestros clientes -con un día de anticipación- pueden realizar pedidos especiales de frutas,
+                            legumbres y
+                            verduras que normalmente se encuentran únicamente en mercados grandes como el de la ciudad
+                            de
+                            Guadalajara
+                            y México.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="{% static 'img\groceries.jpg' %}" alt="Servicio y venta de abarrotes">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-title">Abarrotes</h2>
+
+                        <p class="card-text">Ante la demanda de nuestros clientes, próximamente se manejaran abarrotes
+                            diversos a
+                            fin
+                            de poder ofrecer
+                            un mejor servicio de calidad.</p>
+                        <p class="card-text">Nuestros clientes podrán realizar compras de abarrotes ya sea a menudeo,
+                            medio
+                            mayoreo
+                            y
+                            mayoreo a precios
+                            económicos toda vez que estaremos en la disposicón de competir con los expendedores de
+                            abarrotes de la
+                            región mazatleca y sus alrededores.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="{% static 'img\delivery_bike.jpg' %}" alt="Servicio de entrega en motocicleta">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-title">Entrega a Domicilio</h2>
+                        <p class="card-text">Para ofrecer mayor comodidad en sus compras, frutería Valeria, cuenta con
+                            servicio a
+                            domicilio totalmente gratuito.
+                        </p>
+                        <p class="card-text">
+                            Sólo basta con llamar al teléfono o mandar mensaje por medio de WhatsApp, donde uno de
+                            nuestros
+                            empleados
+                            le contestara y ofrecerá ofertas del día.
+                        </p>
+                        <p class="card-text">Nuestros repartidores altamente capacitados, en poco tiempo acudirán a sus
+                            domicilios
+                            donde se les hará entrega de su mercancía y nota de compra. con lo que se ofrece un servicio
+                            garantizado
+                            y
+                            de alta calidad.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Section: About -->
+<section id="about">
+    <div class="about-img"></div>
+    <div class="about-text background-accent padding-large">
+        <h2 class="heading-small"><span class="text-highlight">Quienes</span> Somos</h2>
+        <p class="margin-small">Fruteria Valeria actualmente opera en el puerto de Mazatlán, Sinaloa, fue fundada en
+            tierras laguneras
+            en el año 2001, ubicada específicamente en el municipio de Gómez Palacio, Durango, dando servicio a
+            parte de la Región Lagunera que la conforman también los municipios de Torreón y Lerdo.</p>
+        <p class="margin-small">Hace 11 años su equipo de trabajo se trasladó a Mazatlán con la firme intención de
+            brindar
+            sus
+            servicios de venta de frutas y verduras al menudeo y mayoreo, iniciando sus funciones en la calle
+            Teniente Azueta en el centro de la ciudad.
+        </p>
+        <p class="margin-small">En la actualidad cuenta con su matriz en las confluencias de las calles Zaragoza y
+            Rosales
+            en el
+            centro de la ciudad donde de igual forma proporciona servicio de excelente calidad.
+        </p>
+        <p class="margin-small">Diariamente recibe mercancía denominada de primera proveniente de la ciudad de
+            Guadalajara, Jalisco,
+            además de los productos que se cosechan en esta importante región agrícola.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- Section: Contact -->
+<section id="contact">
+    <div class="contact-form padding-large">
+        <h2 class="heading-small text-highlight">Contacto</h2>
+        <p class="margin-small">Estamos para atender sus preguntas y abastecer sus pedidos.</p>
+        <p>Sucursal Matriz:</p>
+        <div class="address">
+            <p class="">Calle Antonio Rosales 2120</p>
+            <p class="">Colonia Centro, 82000</p>
+            <p class="">Mazatlán, Sin.</p>
+        </div>
+
+        <p>Telefono:</p>
+        <p class="address"><a href="tel: 669-990-5141">669 990 5141</a></p>
+        <p>WhatsApp:</p>
+        <p class="address"><a href="tel: 669-990-5141">669 150 4584</a></p>
+        <p>Correo:</p>
+        <p class="address"><a href="mailto: fruteria_valeria@outlook.com">Fruteria_valeria@outlook.com</a></p>
+
+        <form action="{% url 'index' %}" method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required />
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono</label>
+                <input type="Text" name="telefono" id="telefono" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto" required />
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+            </div>
+            <input class="form-btn" type="submit" value="Enviar" />
+        </form>
+    </div>
+    <div class="map"></div>
+</section>
+{% endblock %}
